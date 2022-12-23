@@ -1,0 +1,56 @@
+@import url(../../vendor/styles/normalize.css);
+
+@import url(../../vendor/fonts.css);
+@import url(../page/page.css);  
+
+/*анимация ссылок*/
+@import url(../link-animation/link-animation.css);
+
+/*меню хедер*/
+@import url(../header/header.css);
+@import url(../header-logo/header-logo.css);
+@import url(../header-links/header-links.css);
+  @import url(../header-links/__link/header-links__link.css);
+
+/*блок леад*/
+@import url(../lead/lead.css);
+  @import url(../lead/__title/lead__title.css);
+  @import url(../lead/__subtitle/lead__subtitle.css);
+@import url(../lead-image/lead-image.css);
+  @import url(../lead-image/__image/lead-image__image.css);
+  @import url(../lead-image/__caption/lead-image__caption.css);
+
+/*блок интро*/
+@import url(../intro/intro.css);
+  @import url(../intro/__title/intro__title.css);
+  @import url(../intro/__text/intro__text.css);
+@import url(../intro-list/intro-list.css);
+@import url(../intro-list/__item/intro-list__item.css);
+
+/*блок галерея*/
+@import url(../photo-grid/photo-grid.css);
+  @import url(../photo-grid/__item/photo-grid__item.css);
+
+/*блок places*/
+@import url(../places/places.css);
+@import url(../place/place.css);
+  @import url(../place/__title/place__title.css);
+  @import url(../place/__image/place__image.css);
+  @import url(../place/__paragraph/place__paragraph.css);
+@import url(../place-website/place-website.css);
+  @import url(../place-website/__url-heading/place-website__url-heading.css);
+  @import url(../place-website/__link/place-website__link.css);  
+
+/*блок cover*/  
+@import url(../cover/cover.css);
+@import url(../cover-background/cover-background.css);
+  @import url(../cover-background/__overlay/cover-background__overlay.css);
+  @import url(../cover-background/__subtitle/cover-background__subtitle.css);
+  @import url(../cover-background/__title/cover-background__title.css);
+
+/*блок footer*/
+@import url(../footer/footer.css);
+  @import url(../footer/__copyright/footer__copyright.css);
+@import url(../footer-links/footer-links.css);
+  @import url(../footer-links/__item/footer-links__item.css);
+  @import url(../footer-links/__link/footer-links__link.css);

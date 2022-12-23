@@ -1,5 +1,5 @@
 .cover-background__overlay {
-  background-image: url("/vendor/img/__overlay.png");
+  background-image: url("../../../vendor/img/__overlay.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
