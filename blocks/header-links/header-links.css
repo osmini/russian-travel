@@ -1,0 +1,7 @@
+.header-links{
+  display: flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  list-style-type: none;
+  width: 74px;
+}

@@ -1,0 +1,11 @@
+
+.lead-image__image {
+  width: 100%;
+}
+
+@media (max-width: 320px){
+  .lead-image__image {
+    padding-top: 30px;
+  }
+}
+

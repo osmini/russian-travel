@@ -1,0 +1,14 @@
+.footer-links {
+  display: flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  list-style-type: none;
+  max-width: 480px;
+  padding: 0;
+}
+
+@media (max-width: 320px){
+  .footer-links {
+    display: block;
+  }
+}

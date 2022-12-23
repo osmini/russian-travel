@@ -1,0 +1,13 @@
+.places {
+  padding-top: 7.8%;
+  display: grid;
+  row-gap: 80px;
+  justify-items: center;
+}
+
+@media (max-width: 320px){
+  .places {
+    padding-top: 64px;
+    row-gap: 20px;
+  }
+}

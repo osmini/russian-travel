@@ -1,0 +1,10 @@
+.footer-links__item {
+  padding-right: 4%;
+}
+
+@media (max-width: 320px){
+  .footer-links__item {
+    padding-top: 32px;
+    padding-left: 16px;
+  }
+}

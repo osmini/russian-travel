@@ -1,0 +1,10 @@
+.place-website {
+  align-self: end;
+}
+
+@media (max-width: 320px){
+  .place-website {
+    width: 288px;
+    margin: 0 auto;
+  }
+}

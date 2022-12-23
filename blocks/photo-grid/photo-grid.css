@@ -1,0 +1,13 @@
+.photo-grid {
+  box-sizing: border-box;
+  padding-top: 7.8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 320px){
+  .photo-grid {
+    padding-top: 64px;
+  }
+}
