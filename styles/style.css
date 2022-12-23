@@ -47,8 +47,3 @@
   @import url(/blocks/cover-background/__overlay/cover-background__overlay.css);
   @import url(/blocks/cover-background/__subtitle/cover-background__subtitle.css);
   @import url(/blocks/cover-background/__title/cover-background__title.css);
-
-/*блок footer*/
-@import url(/blocks/footer/footer.css);
-  @import url(/blocks/footer/__copyright/footer__copyright.css);
-@import url(/blocks/footer-links/footer-links.css);
