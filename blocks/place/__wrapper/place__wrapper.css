@@ -1,0 +1,21 @@
+.place__paragraph {
+  font-family: 'Inter' , Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media (max-width: 768px){
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px){
+  .place__paragraph {
+    font-size: 16px;
+    width: 288px;
+    margin: 0 auto;
+  }
+}

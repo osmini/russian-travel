@@ -1,14 +1,10 @@
 .cover {
-  padding-top: 7.8%;
-  position: relative;
-  margin: auto;
-}
-
-@media (min-width: 1280px){
-  .cover {
-    width: 1184px;
-    height: 740px;
-  }
+  background-image: url("../../vendor/images/__background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 1;
+  margin-top: 7.8%;
 }
 
 @media (max-width: 1280px){

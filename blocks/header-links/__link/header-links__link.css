@@ -1,12 +1,10 @@
 .header-links__link {
-  font-family: 'Inter';
+  color: #fff;
+  font-family: 'Inter' , Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;  
+  
 }
 
-.header-links__link:first-child{
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}

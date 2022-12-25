@@ -1,7 +1,7 @@
 .cover-background__subtitle {
   position: relative;
   z-index: 5;
-  font-family: 'Inter';
+  font-family: 'Inter' , Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,7 +10,6 @@
   vertical-align: middle;
   max-width: 360px;
   margin: 0 auto;
-  padding-top: 2.7%;
   color: #fff;
 }
 
