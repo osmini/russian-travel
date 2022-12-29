@@ -1,3 +1,8 @@
-.header-links__link {
+.header-links__item {
   text-decoration: none;
+  padding-right: 18px;
+}
+
+.header-links__item:last-child {
+  padding-right: 0px;
 }

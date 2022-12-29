@@ -11,9 +11,10 @@
   max-width: 360px;
   margin: 0 auto;
   color: #fff;
+  padding-top: 3.2%;
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px){
   .cover-background__subtitle {
     width: 288px;
     font-size: 14px;

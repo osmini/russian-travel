@@ -12,7 +12,7 @@
 @import url(../blocks/header-links/header-links.css);
   @import url(../blocks/header-links/__item/header-links__item.css);
   @import url(../blocks/header-links/__link/header-links__link.css);
-  @import url(../blocks/header-links/__active/header-links__active.css);   /*активная ссылка*/
+  @import url(../blocks/header-links/__link/_active/header-links_active.css);   /*активная ссылка*/
   
 /*блок леад*/
 @import url(../blocks/lead/lead.css);
@@ -28,7 +28,7 @@
   @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro-list/intro-list.css);
 @import url(../blocks/intro-list/__item/intro-list__item.css);
-@import url(../blocks/intro-list/__font-Bold/intro-list__font-Bold.css);
+@import url(../blocks/intro-list/__font-bold/intro-list__font-bold.css);
 
 /*блок галерея*/
 @import url(../blocks/photo-grid/photo-grid.css);
