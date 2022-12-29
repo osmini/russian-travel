@@ -12,7 +12,7 @@
 @import url(../blocks/header-links/header-links.css);
   @import url(../blocks/header-links/__item/header-links__item.css);
   @import url(../blocks/header-links/__link/header-links__link.css);
-  @import url(../blocks/header-links/__link/_active/header-links_active.css);   /*активная ссылка*/
+  @import url(../blocks/header-links/__link/_active/header-links__link_active.css);   /*активная ссылка*/
   
 /*блок леад*/
 @import url(../blocks/lead/lead.css);
