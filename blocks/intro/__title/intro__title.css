@@ -4,26 +4,31 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  padding-top: 92px;
+  padding-top: 94px;
   margin: 0;
   max-width: 720px;
+  padding-left: 4px;
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .intro__title {
-    padding-top: 88px;
+    padding-top: 90px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
   .intro__title {
-    padding-top: 64px;
+    padding-left: 10px;
+    padding-top: 87px;
   }
 }
 
-@media (min-width: 320px){
+@media (max-width: 320px){
   .intro__title {
+    padding-left: 15px;
+    padding-top: 65px;
     font-size: 32px;
     line-height: 35px;
+    max-width: 248px;
   }
 }

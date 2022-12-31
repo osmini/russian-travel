@@ -8,3 +8,10 @@
   text-underline-offset: 5px;
   color: #FFF;
 }
+
+@media (max-width: 320px){
+  .place-website__link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

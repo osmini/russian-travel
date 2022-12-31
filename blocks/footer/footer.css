@@ -1,7 +1,8 @@
 .footer {
-  padding-top: 92px;
+  padding-top: 78px;
   padding-bottom: 24px;
   display: flex;
+  flex-direction:row;
   justify-content:space-between;
   margin: 0 auto;
 }
@@ -13,17 +14,25 @@
   }
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .footer {
-    padding-top: 88px;
-    max-width: 720px;
+    padding-top: 79px;
+    max-width: 925px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
   .footer {
-    padding-top: 64px;
-    display: block;
+    padding-top: 73px;
+    max-width: 707px;
   }
 }
+
+@media (max-width: 320px){
+  .footer {
+    padding-top: 40px;
+    flex-direction:column;
+  }
+}
+
 

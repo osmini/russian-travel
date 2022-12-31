@@ -14,19 +14,24 @@
 
 @media (max-width: 1280px){
   .cover-background__overlay {
-    min-height: 640px;
+    min-height: 740px;
   }
 }
 
 @media (max-width: 1024px){
   .cover-background__overlay {
+    min-height: 635px;
+  }
+}
+
+@media (max-width: 768px){
+  .cover-background__overlay {
     min-height: 480px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 320px){
   .cover-background__overlay {
     min-height: 200px;
   }
 }
-

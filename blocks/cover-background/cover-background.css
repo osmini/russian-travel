@@ -2,6 +2,25 @@
   background-image: url("../../images/__overlay.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   z-index: 3;
 }
 
+@media (max-width: 1024px){
+  .cover-background {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px){
+  .cover-background {
+    min-width: 768px;
+  }
+}
+
+@media (max-width: 320px){
+  .cover-background {
+    min-width: 320px;
+    min-height: 200px;
+  }
+}

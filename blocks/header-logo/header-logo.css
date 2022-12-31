@@ -2,3 +2,23 @@
   max-width: 176px;
   max-height: 52px;
 }
+
+@media (max-width:1024px){
+  .header-logo {
+    padding-left: 6px;
+  }
+}
+
+@media (max-width:768px){
+  .header-logo {
+    padding-left: 12px;
+  }
+}
+
+@media (max-width:320px){
+  .header-logo {
+    padding-left: 0px;
+    padding-top: 5px;
+    max-width: 142px;
+  }
+}

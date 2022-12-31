@@ -1,12 +1,21 @@
 .intro-list {
   list-style-type: none;
   padding-left: 0;
-  padding-top: 33px;
+  padding-top: 31px;
   margin: 0;
+  padding-left: 6px;
 }
 
 @media (max-width: 768px){
   .intro-list  {
-    padding-top: 31px;
+    padding-top: 32px;
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 320px){
+  .intro-list  {
+    padding-top: 30px;
+    padding-left: 16px;
   }
 }

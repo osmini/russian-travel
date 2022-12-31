@@ -12,10 +12,24 @@
   margin: 0;
 }
 
+@media (max-width:1024px){
+  .cover-background__title {
+    padding-left: 6px;
+    padding-top: 6px;
+  }
+}
+
 @media (max-width:768px){
   .cover-background__title {
-    width: 288px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width:320px){
+  .cover-background__title {
     font-size: 32px;
     line-height: 35px;
+    padding-left: 0px;
+    padding-top: 0px;
   }
 }

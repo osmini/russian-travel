@@ -2,20 +2,26 @@
   background-image: url("../../images/__background.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100% 100%;
   z-index: 1;
   margin-top: 92px;
-  background-size: 100%;
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .cover {
     margin-top: 90px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
   .cover {
-    margin-top: 66px;
+    margin-top: 100px;
+    max-height: 480px;
   }
 }
 
+@media (max-width: 320px){
+  .cover {
+    margin-top: 75px;
+  }
+}

@@ -5,14 +5,23 @@
   font-size: 16px;
   line-height: 163%;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 43px;
+  padding-left: 6px;
   max-width: 690px;
+}
+
+@media (max-width: 768px){
+  .intro__text {
+    padding-top: 42px;
+    padding-left: 12px;
+    max-width: 720px;
+  }
 }
 
 @media (max-width: 320px){
   .intro__text {
-    font-size: 16px;
-    line-height: 163%;
-    padding-top: 43px;
+    padding-top: 42px;
+    padding-left: 15px;
+    max-width: 288px;
   }
 }

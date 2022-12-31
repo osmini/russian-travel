@@ -6,10 +6,18 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 @media (max-width: 768px){
   .lead-image__caption {
-    padding-left: 24px;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 320px){
+  .lead-image__caption {
+    padding-left: 16px;
   }
 }

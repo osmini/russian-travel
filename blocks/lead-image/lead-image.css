@@ -4,24 +4,26 @@
   padding-top: 64px;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1024px){
   .lead-image {
     max-width: 928px;
-    padding-top: 56px;
-  }
-}
-
-@media (max-width: 1023px){
-  .lead-image {
-    max-width: 768px;
-    padding-top: 56px;
+    padding-top: 53px;
   }
 }
 
 @media (max-width: 768px){
   .lead-image {
-    padding-top: 40px;
+    min-width: 768px;
   }
 }
+
+@media (max-width: 320px){
+  .lead-image {
+    padding-top: 10px;
+    min-width: 320px;
+  }
+}
+
+
 
 

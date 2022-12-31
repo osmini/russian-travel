@@ -1,8 +1,21 @@
 .header-links__item {
   text-decoration: none;
   padding-right: 18px;
+  padding-top: 14px;
 }
 
 .header-links__item:last-child {
   padding-right: 0px;
+}
+
+@media (max-width:768px){
+  .header-links__item {
+    padding-right: 8px;
+  }
+}
+
+@media (max-width:320px){
+  .header-links__item {
+    padding-right: 18px;
+  }
 }

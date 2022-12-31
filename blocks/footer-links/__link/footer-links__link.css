@@ -6,6 +6,7 @@
   line-height: 18px;
   color: #fff;
   text-decoration: none;
+  padding-left: 3px;
 }
 
 @media (max-width: 767px){
